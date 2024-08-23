@@ -1,6 +1,5 @@
 import Array "mo:base/Array";
 import Hash "mo:base/Hash";
-import Iter "mo:base/Iter";
 
 import Blob "mo:base/Blob";
 import Error "mo:base/Error";
@@ -9,6 +8,7 @@ import Nat "mo:base/Nat";
 import Result "mo:base/Result";
 import Text "mo:base/Text";
 import Time "mo:base/Time";
+import Iter "mo:base/Iter";
 
 actor {
   type File = {
